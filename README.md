@@ -22,14 +22,19 @@ All the data are captured in real time using Python 3. The data is stored in Mon
 Technology Stack
 ================
 Python3
+
 MongoDB
+
 Tableau
 
 Pre-requisites
 ==============
 Twitter Developer account (https://developer.twitter.com/en/apply-for-access)
+
 Python 3
+
 MongoDB or any other No SQL Database (optional - you can choose to have the data in json files)
+
 Tableau or any other BI tool (optional - if you do not want to visualize the data)
 
 Code Walkthrough
