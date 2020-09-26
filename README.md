@@ -9,15 +9,19 @@ I am Snehasis Ghosh, a Data Engineer by profession. I would like to share with y
 Introduction
 ============
 This project captures the covid-19 tweets in real time across the globe. The extracted data is used to derive following analysis -
+
 -> The density of tweets based on countries
+
 -> The sentiment of the tweets
+
 -> The actual covid-19 numbers
+
 -> The top 10 trending tweets on covid-19
 
 One of the interesting insights derived is that, there are more tweets from people living in the highly affected areas. Also, they have a much more negative sentiment in their tweets
 
 The tweets are captured using Tweepy (An easy-to-use Python library for accessing the Twitter API www.tweepy.org) and the covid-19 numbers (deaths, recovered, infected etc.) were capture using the covid19api (https://api.covid19api.com/).
-All the data are captured in real time using Python 3. The data is stored in MongoDB (in batches every 15 minutes) and analysis is published on Tableau dashboard.
+All the data are captured in real time using Python 3. The data is stored in MongoDB (in batches every 15 minutes) and analysis is published on Tableau dashboard. You can find the snapshots of the dashboards in the TableauDashboardSnaps branch for your reference
 
 Technology Stack
 ================
