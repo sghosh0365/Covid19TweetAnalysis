@@ -10,13 +10,13 @@ Introduction
 ============
 This project captures the covid-19 tweets in real time across the globe. The extracted data is used to derive following analysis -
 
--> The density of tweets based on countries
+The density of tweets based on countries
 
--> The sentiment of the tweets
+The sentiment of the tweets
 
--> The actual covid-19 numbers
+The actual covid-19 numbers
 
--> The top 10 trending tweets on covid-19
+The top 10 trending tweets on covid-19
 
 One of the interesting insights derived is that, there are more tweets from people living in the highly affected areas. Also, they have a much more negative sentiment in their tweets
 
@@ -45,19 +45,19 @@ Code Walkthrough
 ================
 The main challenge was to extract and transform the data in real time. For this Python 3 has been used. I have uploaded all the Python files for you to try it, customize it and hopefully improve/add functionalities. Below are the scripts and their brief functionalities -
 
--> TwitterDataStream.py: This is the main script and it captures the tweets in real time
+TwitterDataStream.py: This is the main script and it captures the tweets in real time
 
--> TwitterCredentials.py: This contains your twitter developer credentials
+TwitterCredentials.py: This contains your twitter developer credentials
 
--> TweetSentimentAnalysis.py: This script determines the sentiment of the tweets
+TweetSentimentAnalysis.py: This script determines the sentiment of the tweets
 
--> TwitterGeolocator.py: The Twitter user's geo location is not sometimes accurately captured in the Tweepy response json. This script calls the google map api to cleanse and accurately determine the geo location of the user
+TwitterGeolocator.py: The Twitter user's geo location is not sometimes accurately captured in the Tweepy response json. This script calls the google map api to cleanse and accurately determine the geo location of the user
 
--> TwitterTopTweets.py: This script determines the top trending tweets on covid-19 from across the globe
+TwitterTopTweets.py: This script determines the top trending tweets on covid-19 from across the globe
 
--> TwitterLoadMongoDB.py: This loads the data into MongoDB
+TwitterLoadMongoDB.py: This loads the data into MongoDB
 
--> TwitterGeolocator.py: This collects the covid-19 numbers using the covid19api
+TwitterGeolocator.py: This collects the covid-19 numbers using the covid19api
 
 Please reach out to me in case you need help or you have suggestions. I am open to feedback.
 
