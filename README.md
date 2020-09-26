@@ -61,4 +61,4 @@ Regards,
 
 Snehasis Ghosh
 
-LinkedIn: linkedin.com/in/snehasis-ghosh-b17b30a3
+LinkedIn: https://linkedin.com/in/snehasis-ghosh-b17b30a3
