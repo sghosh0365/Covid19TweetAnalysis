@@ -21,7 +21,7 @@ This project captures the covid-19 tweets in real time across the globe. The ext
 One of the interesting insights derived is that, there are more tweets from people living in the highly affected areas. Also, they have a much more negative sentiment in their tweets
 
 The tweets are captured using Tweepy (An easy-to-use Python library for accessing the Twitter API www.tweepy.org) and the covid-19 numbers (deaths, recovered, infected etc.) were capture using the covid19api (https://api.covid19api.com/).
-All the data are captured in real time using Python 3. The data is stored in MongoDB (in batches every 15 minutes) and analysis is published on Tableau dashboard. You can find the snapshots of the dashboards in the TableauDashboardSnaps branch for your reference
+All the data are captured in real time using Python 3. The data is stored in MongoDB (in batches every 15 minutes) and analysis is published on Tableau dashboard. You can find the snapshots of the dashboards in the TableauDashboardSnaps directory for your reference
 
 Technology Stack
 ================
