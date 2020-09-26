@@ -35,7 +35,7 @@ Pre-requisites
 ==============
 Twitter Developer account (https://developer.twitter.com/en/apply-for-access)
 
-Python 3
+Python 3 installation
 
 MongoDB or any other No SQL Database (optional - you can choose to have the data in json files)
 
